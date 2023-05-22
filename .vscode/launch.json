@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "storybook",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "widgetbook_manual(debug mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "widgetbook/manual_main.dart"
+    },
+    {
+      "name": "widgetbook_builder(debug mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "widgetbook/builder_main.dart"
+    },
+    {
+      "name": "storybook (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "storybook (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
