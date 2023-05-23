@@ -18,7 +18,7 @@
       "request": "launch",
       "type": "dart",
       "flutterMode": "debug",
-      "program": "widgetbook/builder_main.dart"
+      "program": "lib/widgetbook_main.widgetbook.dart"
     },
     {
       "name": "storybook (profile mode)",
